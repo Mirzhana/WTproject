@@ -2,6 +2,13 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
 
+.wrapper{
+    display: flex;
+    margin-left: 5em;
+    margin-right: 5em;
+
+    flex-direction: column;
+}
 	body, input, select, textarea {
 		color: #7f888f;
 		font-family: "Open Sans", sans-serif;
@@ -679,7 +686,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#header {
-				padding-top: 5em;
+				padding-top: 2em;
 			}
 
 		}
